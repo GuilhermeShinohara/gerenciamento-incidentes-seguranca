@@ -1,4 +1,3 @@
-
 # 🛡️ Sistema de Gerenciamento de Incidentes de Segurança
 
 > Projeto acadêmico de Engenharia de Software voltado à análise, modelagem e planejamento de uma solução para gerenciamento de incidentes de segurança da informação.
@@ -16,7 +15,7 @@
 
 O Sistema de Gerenciamento de Incidentes de Segurança foi concebido para apoiar organizações no registro, acompanhamento, investigação e resolução de incidentes de segurança da informação.
 
-O projeto foi desenvolvido aplicando conceitos de Engenharia de Software, Segurança da Informação e Gestão de Projetos, contemplando levantamento de requisitos, modelagem UML, análise de riscos, planejamento da solução e definição de controles de segurança.
+O projeto aplica conceitos de Engenharia de Software, Segurança da Informação e Gestão de Projetos, abrangendo levantamento de requisitos, modelagem UML, análise de riscos, definição de requisitos de segurança e planejamento da solução.
 
 A proposta busca garantir rastreabilidade, integridade das informações, preservação de evidências digitais e suporte à tomada de decisão durante o tratamento de incidentes.
 
@@ -24,14 +23,14 @@ A proposta busca garantir rastreabilidade, integridade das informações, preser
 
 # 🎯 Objetivos
 
-- Registrar incidentes de segurança da informação.
-- Garantir rastreabilidade das ações realizadas.
-- Preservar evidências digitais.
-- Apoiar investigações e auditorias.
-- Controlar o fluxo de aprovação dos incidentes.
-- Fornecer histórico completo das ocorrências.
-- Apoiar o Comitê de Segurança na tomada de decisão.
-- Padronizar o processo de tratamento de incidentes.
+* Registrar incidentes de segurança da informação;
+* Garantir rastreabilidade das ações realizadas;
+* Preservar evidências digitais;
+* Apoiar investigações e auditorias;
+* Controlar o fluxo de aprovação dos incidentes;
+* Fornecer histórico completo das ocorrências;
+* Apoiar o Comitê de Segurança na tomada de decisão;
+* Padronizar o processo de tratamento de incidentes.
 
 ---
 
@@ -41,12 +40,12 @@ Organizações precisam tratar incidentes de segurança de forma estruturada, ga
 
 Sem um sistema adequado, podem ocorrer:
 
-- Perda de evidências digitais;
-- Falhas de auditoria;
-- Erros de comunicação;
-- Dificuldade na investigação;
-- Falhas de conformidade;
-- Atraso na resposta aos incidentes.
+* Perda de evidências digitais;
+* Falhas de auditoria;
+* Erros de comunicação;
+* Dificuldade na investigação;
+* Falhas de conformidade;
+* Atraso na resposta aos incidentes.
 
 Este projeto propõe uma solução capaz de centralizar e padronizar todo o processo de gerenciamento de incidentes.
 
@@ -72,7 +71,7 @@ Resolução
 Relatório Final
    ↓
 Encerramento
-````
+```
 
 ---
 
@@ -104,7 +103,7 @@ Encerramento
 A Estrutura Analítica do Projeto organiza as atividades necessárias para o desenvolvimento da solução, contemplando todas as etapas do ciclo de vida do software.
 
 <p align="center">
-  <img src="EAP.png" alt="Estrutura Analítica do Projeto" width="1000">
+  <img src="./EAP.png" alt="Estrutura Analítica do Projeto" width="900">
 </p>
 
 ---
@@ -114,7 +113,7 @@ A Estrutura Analítica do Projeto organiza as atividades necessárias para o des
 O planejamento foi estruturado em fases sequenciais, abrangendo desde a concepção da solução até sua implantação.
 
 <p align="center">
-  <img src="GANTT.png" alt="Cronograma do Projeto" width="1000">
+  <img src="./GANTT.png" alt="Cronograma do Projeto" width="1200">
 </p>
 
 ## 📌 Resumo do Cronograma
@@ -136,8 +135,6 @@ O planejamento foi estruturado em fases sequenciais, abrangendo desde a concepç
 
 A análise de riscos foi utilizada para orientar decisões arquiteturais, requisitos de segurança e estratégias de mitigação.
 
-## Principais Riscos
-
 | Risco                               | Impacto | Probabilidade |
 | ----------------------------------- | ------- | ------------- |
 | Vazamento de informações sigilosas  | Alto    | Média         |
@@ -148,7 +145,7 @@ A análise de riscos foi utilizada para orientar decisões arquiteturais, requis
 | Atraso no desenvolvimento           | Médio   | Alta          |
 | Erros humanos durante investigações | Médio   | Média         |
 
-## Estratégias de Mitigação
+### Estratégias de Mitigação
 
 * Controle de acesso baseado em papéis (RBAC);
 * Restrição de permissões por perfil;
@@ -201,11 +198,8 @@ A análise de riscos foi utilizada para orientar decisões arquiteturais, requis
 
 # 🧠 Competências Demonstradas
 
-Este projeto evidencia conhecimentos em:
-
 * Engenharia de Requisitos;
-* Análise e Modelagem de Sistemas;
-* UML;
+* UML e Modelagem de Sistemas;
 * Segurança da Informação;
 * Gestão de Riscos;
 * Planejamento de Projetos;
@@ -230,6 +224,3 @@ Este projeto evidencia conhecimentos em:
 ✅ Projeto concluído
 
 Este projeto demonstra a aplicação prática de conceitos de Engenharia de Software, Segurança da Informação e Gestão de Projetos por meio da análise, modelagem, planejamento e documentação de uma solução para gerenciamento de incidentes de segurança da informação.
-
-```
-```
