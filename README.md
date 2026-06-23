@@ -104,7 +104,7 @@ Encerramento
 A Estrutura Analítica do Projeto organiza as atividades necessárias para o desenvolvimento da solução, contemplando todas as etapas do ciclo de vida do software.
 
 <p align="center">
-  <img src="gerenciamento-incidentes-seguranca/EAP.png" alt="Estrutura Analítica do Projeto" width="1000">
+  <img src="EAP.png" alt="Estrutura Analítica do Projeto" width="1000">
 </p>
 
 ---
@@ -114,7 +114,7 @@ A Estrutura Analítica do Projeto organiza as atividades necessárias para o des
 O planejamento foi estruturado em fases sequenciais, abrangendo desde a concepção da solução até sua implantação.
 
 <p align="center">
-  <img src="gerenciamento-incidentes-seguranca/GANTT.png" alt="Cronograma do Projeto" width="1000">
+  <img src="GANTT.png" alt="Cronograma do Projeto" width="1000">
 </p>
 
 ## 📌 Resumo do Cronograma
