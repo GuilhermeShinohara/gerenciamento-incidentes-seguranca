@@ -1,258 +1,157 @@
 # 🛡️ Sistema de Gerenciamento de Incidentes de Segurança
 
-> Projeto de Engenharia de Software focado na análise, modelagem, planejamento e especificação de uma solução para gerenciamento de incidentes de segurança da informação.
+> Projeto acadêmico de Engenharia de Software voltado à análise, modelagem e planejamento de uma solução para gerenciamento de incidentes de segurança da informação.
 
 <p align="center">
-
-![Status](https://img.shields.io/badge/Status-Concluído-success)
-![Área](https://img.shields.io/badge/Área-Segurança%20da%20Informação-blue)
-![Disciplina](https://img.shields.io/badge/Foco-Engenharia%20de%20Software-orange)
-![Documentação](https://img.shields.io/badge/Documentação-Completa-brightgreen)
-
+  <img src="https://img.shields.io/badge/Status-Concluído-success" />
+  <img src="https://img.shields.io/badge/Área-Segurança%20da%20Informação-blue" />
+  <img src="https://img.shields.io/badge/Foco-Engenharia%20de%20Software-orange" />
+  <img src="https://img.shields.io/badge/Documentação-Completa-brightgreen" />
 </p>
 
 ---
 
-# 📖 Sobre o Projeto
+## 📖 Visão Geral
 
 O Sistema de Gerenciamento de Incidentes de Segurança foi concebido para apoiar organizações no registro, acompanhamento, investigação e resolução de incidentes de segurança da informação.
 
-O projeto foi desenvolvido utilizando práticas de Engenharia de Software, Segurança da Informação e Gestão de Projetos, contemplando desde a definição do problema até a modelagem da solução, análise de riscos, planejamento da infraestrutura e definição do ciclo de vida do sistema.
-
-A proposta busca garantir rastreabilidade, integridade das informações, preservação de evidências digitais e suporte à tomada de decisão durante o tratamento de incidentes.
+O projeto aplica conceitos de Engenharia de Software, Segurança da Informação e Gestão de Projetos, contemplando levantamento de requisitos, modelagem UML, análise de riscos, planejamento da solução e definição dos requisitos de segurança.
 
 ---
 
-# 🎯 Objetivos
+## 🎯 Objetivos
 
-* Registrar incidentes de segurança da informação.
-* Garantir rastreabilidade das ações executadas.
-* Preservar evidências digitais.
-* Apoiar processos de investigação.
-* Controlar o fluxo de aprovação dos incidentes.
-* Facilitar auditorias e processos de conformidade.
-* Apoiar o Comitê de Segurança na tomada de decisão.
-* Fornecer histórico completo de ocorrências.
+* Registrar incidentes de segurança da informação;
+* Garantir rastreabilidade das ações realizadas;
+* Preservar evidências digitais;
+* Apoiar investigações e auditorias;
+* Controlar o fluxo de aprovação dos incidentes;
+* Fornecer histórico completo das ocorrências.
 
 ---
 
-# 🚨 Problema de Negócio
+## 🚨 Problema de Negócio
 
-Incidentes de segurança precisam ser registrados, investigados e resolvidos de forma estruturada.
+Organizações precisam tratar incidentes de segurança de forma estruturada, garantindo integridade, rastreabilidade e conformidade.
 
-Sem um sistema adequado, organizações podem enfrentar problemas como:
+A ausência de processos padronizados pode gerar:
 
 * Perda de evidências;
-* Falta de rastreabilidade;
+* Falhas de auditoria;
 * Erros de comunicação;
-* Dificuldade de auditoria;
-* Falhas de conformidade;
+* Dificuldade na investigação;
 * Atraso na resposta aos incidentes.
-
-Este projeto propõe uma solução capaz de centralizar e padronizar todo o processo de tratamento de incidentes.
 
 ---
 
-# 🔄 Fluxo de Tratamento de Incidentes
+## 🔄 Fluxo de Tratamento de Incidentes
 
 ```text
 Usuário
-    ↓
-Reportar Incidente
-    ↓
-Registro da Ocorrência
-    ↓
+   ↓
+Registro do Incidente
+   ↓
 Classificação e Priorização
-    ↓
+   ↓
 Investigação
-    ↓
+   ↓
 Registro de Evidências
-    ↓
+   ↓
 Análise do Comitê de Segurança
-    ↓
+   ↓
 Resolução
-    ↓
+   ↓
 Relatório Final
-    ↓
+   ↓
 Encerramento
 ```
 
 ---
 
-# 👥 Atores do Sistema
+## 👥 Atores do Sistema
 
-## Usuário
-
-Responsável por reportar incidentes de segurança.
-
-## Analista de Segurança
-
-Responsável por analisar, investigar e acompanhar os incidentes registrados.
-
-## Comitê de Segurança
-
-Responsável por avaliar riscos, aprovar relatórios e autorizar o encerramento dos incidentes.
+| Ator                  | Responsabilidade                   |
+| --------------------- | ---------------------------------- |
+| Usuário               | Reportar incidentes                |
+| Analista de Segurança | Investigar e acompanhar incidentes |
+| Comitê de Segurança   | Aprovar relatórios e encerramentos |
 
 ---
 
-# 📋 Casos de Uso
+## 📋 Funcionalidades Principais
 
-O sistema contempla os seguintes processos:
-
-* Reportar Incidente
-* Registrar Incidente
-* Atualizar Incidente
-* Classificar Incidente
-* Priorizar Incidente
-* Analisar Incidente
-* Resolver Incidente
-* Consultar Relatórios
+* Registro de incidentes;
+* Atualização e acompanhamento;
+* Classificação e priorização;
+* Investigação de ocorrências;
+* Controle de evidências;
+* Consulta de relatórios;
+* Fluxo de aprovação do Comitê de Segurança.
 
 ---
 
-# 🏗️ Estrutura Analítica do Projeto (EAP)
+## 📊 Estrutura Analítica do Projeto (EAP)
 
-O projeto foi planejado seguindo uma Estrutura Analítica do Projeto (EAP), contemplando todas as etapas do ciclo de vida do software.
-
-## 1. Iniciação e Concepção
-
-* Definição do escopo
-* Identificação de stakeholders
-* Análise de viabilidade
-* Definição dos objetivos
-
-## 2. Planejamento
-
-* Levantamento de requisitos
-* Planejamento do cronograma
-* Planejamento de custos
-* Planejamento de riscos
-* Definição da arquitetura
-
-## 3. Engenharia de Requisitos
-
-* Casos de uso
-* Modelagem de classes
-* Controle de acesso RBAC
-* Regras de negócio
-
-## 4. Infraestrutura de Segurança
-
-* Criptografia
-* SHA-256
-* Auditoria e logs
-* Integridade de dados
-
-## 5. Desenvolvimento
-
-* Sistema de registro de incidentes
-* Painel investigativo
-* Workflow do Comitê de Segurança
-* Integração entre módulos
-
-## 6. Testes
-
-* Testes unitários
-* Testes de integração
-* Testes de carga
-* Testes de segurança
-
-## 7. Implantação
-
-* Configuração do ambiente
-* Homologação
-* Treinamento de usuários
-* Go-Live
-
-## 8. Manutenção e Evolução
-
-* Correções
-* Atualizações de segurança
-* Melhorias evolutivas
-* Monitoramento contínuo
+<p align="center">
+  <img src="docs/eap.png" alt="Estrutura Analítica do Projeto" width="1000">
+</p>
 
 ---
 
-# 📅 Cronograma do Projeto
+## 📅 Cronograma do Projeto
 
-| Etapa           | Objetivo                         | Duração |
-| --------------- | -------------------------------- | ------- |
-| Concepção       | Definição do escopo e objetivos  | 12 dias |
-| Requisitos      | Levantamento funcional e técnico | 16 dias |
-| Infraestrutura  | Planejamento do ambiente         | 11 dias |
-| Desenvolvimento | Construção da solução            | 37 dias |
-| Testes          | Validação funcional e técnica    | 15 dias |
-| Implantação     | Entrega e homologação            | 8 dias  |
-
-## Fluxo Técnico
-
-```text
-Concepção
-   ↓
-Levantamento de Requisitos
-   ↓
-Configuração da Infraestrutura
-   ↓
-Desenvolvimento da Solução
-   ↓
-Testes e Validação
-   ↓
-Implantação Final
-```
+<p align="center">
+  <img src="docs/gantt.png" alt="Cronograma do Projeto" width="1000">
+</p>
 
 ---
 
-# ⚠️ Gestão de Riscos
+## ⚠️ Gestão de Riscos
 
-A análise de riscos foi utilizada para orientar requisitos de segurança e decisões arquiteturais.
+### Principais Riscos Identificados
 
-## Principais Riscos
+| Risco                              | Impacto | Probabilidade |
+| ---------------------------------- | ------- | ------------- |
+| Vazamento de informações sigilosas | Alto    | Média         |
+| Perda de evidências digitais       | Alto    | Média         |
+| Indisponibilidade do sistema       | Alto    | Baixa         |
+| Sobrecarga da plataforma           | Alto    | Baixa         |
+| Falhas de permissões               | Médio   | Média         |
+| Atraso no desenvolvimento          | Médio   | Alta          |
 
-| Risco                               | Impacto | Probabilidade |
-| ----------------------------------- | ------- | ------------- |
-| Vazamento de informações sigilosas  | Alto    | Média         |
-| Perda de evidências digitais        | Alto    | Média         |
-| Indisponibilidade do sistema        | Alto    | Baixa         |
-| Sobrecarga da plataforma            | Alto    | Baixa         |
-| Falhas de permissões                | Médio   | Média         |
-| Atraso no desenvolvimento           | Médio   | Alta          |
-| Erros humanos durante investigações | Médio   | Média         |
+### Estratégias de Mitigação
 
-## Estratégias de Mitigação
-
-* Controle de acesso baseado em papéis (RBAC)
-* Restrição de permissões por perfil
-* Hashes SHA-256 para evidências
-* Auditoria e logs
-* Backups periódicos
-* Testes de autenticação
-* Testes de carga
-* Monitoramento contínuo
+* Controle de acesso baseado em papéis (RBAC);
+* Utilização de hashes SHA-256;
+* Auditoria e rastreabilidade;
+* Backups periódicos;
+* Testes de autenticação e autorização;
+* Testes de carga e monitoramento contínuo.
 
 ---
 
-# 🔒 Requisitos de Segurança
+## 🔒 Requisitos de Segurança
 
-## Controle de Acesso
+### Controle de Acesso
 
-* RBAC (Role-Based Access Control)
-* Perfis de usuários
-* Controle granular de permissões
+* RBAC (Role-Based Access Control);
+* Perfis de usuário;
+* Controle granular de permissões.
 
-## Integridade
+### Integridade
 
-* SHA-256 para validação de evidências
-* Controle de integridade dos registros
+* Hashes SHA-256 para validação de evidências;
+* Controle de integridade dos registros.
 
-## Auditoria
+### Auditoria
 
-* Histórico de alterações
-* Registro de ações executadas
-* Rastreabilidade completa
+* Registro de ações executadas;
+* Histórico de alterações;
+* Rastreabilidade completa.
 
 ---
 
-# 📂 Estrutura do Repositório
+## 📂 Estrutura do Repositório
 
 ```text
 .
@@ -261,34 +160,32 @@ A análise de riscos foi utilizada para orientar requisitos de segurança e deci
 ├── Exercícios/
 ├── Implantação/
 ├── Implementação/
+├── docs/
+│   ├── eap.png
+│   └── gantt.png
 ├── README.md
-├── GroupInformation.md
-├── SquadGrupoKaua.md
 ├── riscos.md
-├── gantt.md
-└── eap.md
+├── eap.md
+└── gantt.md
 ```
 
 ---
 
-# 🧠 Competências Demonstradas
+## 🧠 Competências Demonstradas
 
-Este projeto evidencia conhecimentos em:
-
-* Engenharia de Requisitos
-* Análise e Modelagem de Sistemas
-* UML
-* Segurança da Informação
-* Gestão de Riscos
-* Planejamento de Projetos
-* Governança de TI
-* Auditoria de Sistemas
-* Documentação Técnica
-* Boas Práticas de Engenharia de Software
+* Engenharia de Requisitos;
+* UML e Modelagem de Sistemas;
+* Segurança da Informação;
+* Gestão de Riscos;
+* Planejamento de Projetos;
+* Governança de TI;
+* Auditoria de Sistemas;
+* Documentação Técnica;
+* Boas Práticas de Engenharia de Software.
 
 ---
 
-# 👨‍💻 Equipe
+## 👨‍💻 Equipe
 
 * Guilherme Shinohara
 * Kauã de Castro Alencar
@@ -297,8 +194,8 @@ Este projeto evidencia conhecimentos em:
 
 ---
 
-# 📌 Status
+## 📌 Status
 
 ✅ Projeto concluído
 
-O projeto contempla a análise, modelagem, planejamento e documentação de uma solução para gerenciamento de incidentes de segurança da informação, aplicando conceitos de Engenharia de Software, Segurança da Informação e Gestão de Projetos.
+Este projeto demonstra a aplicação prática de conceitos de Engenharia de Software, Segurança da Informação e Gestão de Projetos por meio da análise, modelagem e planejamento de uma solução para gerenciamento de incidentes de segurança.
