@@ -1,4 +1,4 @@
-````md
+
 # 🛡️ Sistema de Gerenciamento de Incidentes de Segurança
 
 > Projeto acadêmico de Engenharia de Software voltado à análise, modelagem e planejamento de uma solução para gerenciamento de incidentes de segurança da informação.
