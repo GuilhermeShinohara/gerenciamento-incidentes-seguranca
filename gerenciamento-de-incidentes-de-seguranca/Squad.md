@@ -1,4 +1,4 @@
-# 👥 Squad – Grupo Kauã
+# 👥 Squad
 
 ## 📌 Representante da Squad
 
