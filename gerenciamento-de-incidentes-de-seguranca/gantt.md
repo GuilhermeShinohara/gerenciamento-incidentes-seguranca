@@ -2,32 +2,47 @@
 
 ```plantuml
 @startgantt
+title Cronograma do Projeto - Sistema de Gerenciamento de Incidentes de Segurança
+
 Project starts 2026-05-25
+saturday are closed
+sunday are closed
 
 -- Planejamento --
-[Concepção] lasts 12 days
-[Requisitos] lasts 16 days
 
--- Estrutura Técnica --
-[Infraestrutura] lasts 11 days
+[Concepção e Escopo] lasts 12 days
+[Levantamento de Requisitos] lasts 16 days
+
+-- Arquitetura e Segurança --
+
+[Infraestrutura e Segurança] lasts 11 days
 
 -- Desenvolvimento --
-[Desenvolvimento] lasts 37 days
+
+[Implementação da Solução] lasts 37 days
 
 -- Validação --
-[Testes] lasts 15 days
+
+[Testes e Homologação] lasts 15 days
 
 -- Entrega --
-[Implantação] lasts 8 days
 
-[Requisitos] starts at [Concepção]'s end
-[Infraestrutura] starts at [Requisitos]'s end
-[Desenvolvimento] starts at [Infraestrutura]'s end
-[Testes] starts at [Desenvolvimento]'s end
-[Implantação] starts at [Testes]'s end
+[Implantação e Go-Live] lasts 8 days
+
+[Levantamento de Requisitos] starts at [Concepção e Escopo]'s end
+[Infraestrutura e Segurança] starts at [Levantamento de Requisitos]'s end
+[Implementação da Solução] starts at [Infraestrutura e Segurança]'s end
+[Testes e Homologação] starts at [Implementação da Solução]'s end
+[Implantação e Go-Live] starts at [Testes e Homologação]'s end
+
+milestone "Projeto Iniciado" happens 2026-05-25
+milestone "Requisitos Concluídos" happens at [Levantamento de Requisitos]'s end
+milestone "Desenvolvimento Concluído" happens at [Implementação da Solução]'s end
+milestone "Projeto Finalizado" happens at [Implantação e Go-Live]'s end
 
 @endgantt
 ```
+
 
 ---
 
