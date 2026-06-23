@@ -1,51 +1,50 @@
+````md
 # 🛡️ Sistema de Gerenciamento de Incidentes de Segurança
 
 > Projeto acadêmico de Engenharia de Software voltado à análise, modelagem e planejamento de uma solução para gerenciamento de incidentes de segurança da informação.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Concluído-success" alt="Status">
-  <img src="https://img.shields.io/badge/Área-Segurança%20da%20Informação-blue" alt="Área">
-  <img src="https://img.shields.io/badge/Foco-Engenharia%20de%20Software-orange" alt="Foco">
-  <img src="https://img.shields.io/badge/Documentação-Completa-brightgreen" alt="Documentação">
+  <img src="https://img.shields.io/badge/Status-Concluído-success">
+  <img src="https://img.shields.io/badge/Área-Segurança%20da%20Informação-blue">
+  <img src="https://img.shields.io/badge/Foco-Engenharia%20de%20Software-orange">
+  <img src="https://img.shields.io/badge/Documentação-Completa-brightgreen">
 </p>
 
 ---
 
 # 📖 Visão Geral
 
-O Sistema de Gerenciamento de Incidentes de Segurança foi concebido para apoiar organizações no registro, acompanhamento, investigação e resolução de incidentes de segurança da informação.
+O Sistema de Gerenciamento de Incidentes de Segurança foi desenvolvido como projeto acadêmico com o objetivo de aplicar conceitos de Engenharia de Software, Segurança da Informação e Gestão de Projetos na concepção de uma solução voltada ao tratamento de incidentes de segurança.
 
-O projeto aplica conceitos de Engenharia de Software, Segurança da Informação e Gestão de Projetos, abrangendo levantamento de requisitos, modelagem UML, análise de riscos, definição de requisitos de segurança e planejamento da solução.
-
-A proposta busca garantir rastreabilidade, integridade das informações, preservação de evidências digitais e suporte à tomada de decisão durante o tratamento de incidentes.
+O projeto contempla atividades de levantamento de requisitos, modelagem UML, análise de riscos, planejamento do desenvolvimento, definição de controles de segurança e documentação dos artefatos produzidos durante o ciclo de vida do software.
 
 ---
 
 # 🎯 Objetivos
 
-* Registrar incidentes de segurança da informação;
-* Garantir rastreabilidade das ações realizadas;
-* Preservar evidências digitais;
-* Apoiar investigações e auditorias;
-* Controlar o fluxo de aprovação dos incidentes;
-* Fornecer histórico completo das ocorrências;
-* Apoiar o Comitê de Segurança na tomada de decisão;
-* Padronizar o processo de tratamento de incidentes.
+- Registrar incidentes de segurança da informação;
+- Garantir rastreabilidade das ações executadas;
+- Preservar evidências digitais;
+- Apoiar investigações e auditorias;
+- Controlar o fluxo de aprovação dos incidentes;
+- Apoiar a tomada de decisão do Comitê de Segurança;
+- Fornecer histórico completo das ocorrências;
+- Padronizar o tratamento de incidentes.
 
 ---
 
 # 🚨 Problema de Negócio
 
-Organizações precisam tratar incidentes de segurança de forma estruturada, garantindo integridade, rastreabilidade e conformidade com boas práticas de governança.
+Incidentes de segurança precisam ser registrados, investigados e resolvidos de forma estruturada.
 
-Sem um sistema adequado, podem ocorrer:
+Sem um processo adequado, organizações podem enfrentar problemas como:
 
-* Perda de evidências digitais;
-* Falhas de auditoria;
-* Erros de comunicação;
-* Dificuldade na investigação;
-* Falhas de conformidade;
-* Atraso na resposta aos incidentes.
+- Perda de evidências digitais;
+- Falhas de auditoria;
+- Erros de comunicação;
+- Dificuldade de investigação;
+- Não conformidade com políticas internas;
+- Atrasos na resposta aos incidentes.
 
 Este projeto propõe uma solução capaz de centralizar e padronizar todo o processo de gerenciamento de incidentes.
 
@@ -71,52 +70,50 @@ Resolução
 Relatório Final
    ↓
 Encerramento
-```
+````
 
 ---
 
 # 👥 Atores do Sistema
 
-| Ator                  | Responsabilidade                                   |
-| --------------------- | -------------------------------------------------- |
-| Usuário               | Reportar incidentes de segurança                   |
-| Analista de Segurança | Investigar, acompanhar e tratar incidentes         |
-| Comitê de Segurança   | Avaliar riscos, aprovar relatórios e encerramentos |
+| Ator                  | Responsabilidade                       |
+| --------------------- | -------------------------------------- |
+| Usuário               | Reportar incidentes de segurança       |
+| Analista de Segurança | Investigar e acompanhar incidentes     |
+| Comitê de Segurança   | Avaliar riscos e aprovar encerramentos |
 
 ---
 
 # 📋 Funcionalidades Principais
 
 * Registro de incidentes;
-* Atualização e acompanhamento de ocorrências;
-* Classificação e priorização de incidentes;
-* Investigação de eventos de segurança;
-* Controle e validação de evidências digitais;
+* Atualização de ocorrências;
+* Classificação e priorização;
+* Investigação de eventos;
+* Controle de evidências digitais;
 * Consulta de relatórios;
-* Fluxo de aprovação pelo Comitê de Segurança;
-* Auditoria e rastreabilidade das ações.
+* Fluxo de aprovação;
+* Auditoria e rastreabilidade.
 
 ---
 
 # 📊 Estrutura Analítica do Projeto (EAP)
 
-A Estrutura Analítica do Projeto organiza as atividades necessárias para o desenvolvimento da solução, contemplando todas as etapas do ciclo de vida do software.
+A Estrutura Analítica do Projeto organiza as atividades necessárias para o desenvolvimento da solução.
 
-<p align="center">
-  <img src="./EAP.png" alt="Estrutura Analítica do Projeto" width="900">
-</p>
+![EAP](gerenciamento-de-incidentes-de-seguranca/EAP.png)
 
 ---
 
 # 📅 Cronograma do Projeto
 
-O planejamento foi estruturado em fases sequenciais, abrangendo desde a concepção da solução até sua implantação.
+O cronograma foi elaborado para organizar as fases do projeto desde a concepção até a implantação.
 
-<p align="center">
-  <img src="./GANTT.png" alt="Cronograma do Projeto" width="1200">
-</p>
+![GANTT](gerenciamento-de-incidentes-de-seguranca/GANTT.png)
 
-## 📌 Resumo do Cronograma
+---
+
+# 📌 Resumo do Cronograma
 
 | Etapa                      | Objetivo                                                 | Duração |
 | -------------------------- | -------------------------------------------------------- | ------- |
@@ -133,7 +130,9 @@ O planejamento foi estruturado em fases sequenciais, abrangendo desde a concepç
 
 # ⚠️ Gestão de Riscos
 
-A análise de riscos foi utilizada para orientar decisões arquiteturais, requisitos de segurança e estratégias de mitigação.
+A análise de riscos foi utilizada para orientar decisões arquiteturais e requisitos de segurança.
+
+## Principais Riscos
 
 | Risco                               | Impacto | Probabilidade |
 | ----------------------------------- | ------- | ------------- |
@@ -163,19 +162,19 @@ A análise de riscos foi utilizada para orientar decisões arquiteturais, requis
 ## Controle de Acesso
 
 * RBAC (Role-Based Access Control);
-* Perfis de usuário;
-* Controle granular de permissões.
+* Controle granular de permissões;
+* Perfis de usuário.
 
 ## Integridade
 
 * Utilização de hashes SHA-256 para validação de evidências;
-* Controle de integridade dos registros armazenados.
+* Controle de integridade dos registros.
 
 ## Auditoria
 
 * Registro das ações executadas;
 * Histórico de alterações;
-* Rastreabilidade completa das operações.
+* Rastreabilidade completa.
 
 ---
 
@@ -183,20 +182,23 @@ A análise de riscos foi utilizada para orientar decisões arquiteturais, requis
 
 ```text
 .
-├── Concepção/
-├── Exercícios/
-├── EAP.png
-├── GANTT.png
-├── GroupInformation.md
 ├── README.md
-├── SquadGrupoKaua.md
-├── riscos.md
-└── demais artefatos do projeto
+└── gerenciamento-de-incidentes-de-seguranca/
+    ├── Concepção/
+    ├── Exercícios/
+    ├── EAP.png
+    ├── GANTT.png
+    ├── GroupInformation.md
+    ├── SquadGrupoKaua.md
+    ├── riscos.md
+    └── demais artefatos do projeto
 ```
 
 ---
 
 # 🧠 Competências Demonstradas
+
+Este projeto evidencia conhecimentos em:
 
 * Engenharia de Requisitos;
 * UML e Modelagem de Sistemas;
@@ -224,3 +226,6 @@ A análise de riscos foi utilizada para orientar decisões arquiteturais, requis
 ✅ Projeto concluído
 
 Este projeto demonstra a aplicação prática de conceitos de Engenharia de Software, Segurança da Informação e Gestão de Projetos por meio da análise, modelagem, planejamento e documentação de uma solução para gerenciamento de incidentes de segurança da informação.
+
+````
+
